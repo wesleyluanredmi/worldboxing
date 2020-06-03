@@ -1,0 +1,37 @@
+body{
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    color: #333333;
+}
+
+
+.header-principal{
+    width: 100vw;
+    background-color: rgb(211, 211, 208);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    min-width: 170px;
+}
+
+.header-principal .logo{
+    color: #d32328;
+    font-size: 30pt;
+}
+
+.header-principal .logo h1{
+    margin-top: 10px;
+}
+.header-principal .conteiner-menu{
+    color: #333333;
+    font-size: 25px;
+}
+.header-principal .conteiner-menu .menu .lista{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.header-principal .conteiner-menu .menu .lista li{
+    margin-right: 15px;
+}   
